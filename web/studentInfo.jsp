@@ -29,7 +29,7 @@
         <tbody align="center">
             <tr>
                 <th field="department" width="100" rowspan="4" align="center">Dep 1</th>
-                <th field="studentId" width="100" align="center"><a href="http://localhost:8080/studentInfo.jsp" onclick="myFunction()" target="_self">S1</a></th>
+                <th field="studentId" width="100" align="center"><a href="http://localhost:8080/studentInfo.jsp" onclick='return confirm("Student Name1");' target="_self">S1</a></th>
                 <th field="stuName" width="100" align="center">35</th>
                 <th field="sex" width="100" rowspan="4" align="center">75</th>
             </tr>
